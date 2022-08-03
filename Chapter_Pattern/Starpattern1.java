@@ -1,3 +1,4 @@
+package Chapter_Pattern;
 /* print Star pattern of given below by using for loop:
   ******
   ******
@@ -20,7 +21,7 @@ public class Starpattern1 {
 
     /* We can also take input from users by using Scanner function*/
 
-    
+
     Scanner sc= new Scanner(System.in);
     System.out.println("Enter the Size of Pyramid");
     int N = sc.nextInt();
