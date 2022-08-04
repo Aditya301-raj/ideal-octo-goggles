@@ -1,8 +1,8 @@
-package Chapter_Pattern;
+
 /* print Star pattern of given below by using for loop:
-  ******
   *****
   ****
+  ***
   **
   *
  */
