@@ -25,21 +25,21 @@ public class StarPattern4{
     // Another method to print pyramid
     // using Scanner method  
 
-//       Scanner sc= new Scanner(System.in);
-//      System.out.println("Enter the size of pyramid ");
-//      int rows = sc.nextInt();// here we can enter rows
+      Scanner sc= new Scanner(System.in);
+     System.out.println("Enter the size of pyramid ");
+     int rows = sc.nextInt();// here we can enter rows
 
-//      for(i=1; i<=rows;i++){
-//         for(j=1;j<=rows;j++){
-//           if((i+j)<=rows){
-//             System.out.printf(" ");
-//           }
-//           else{
-//             System.out.printf("*");
-//           }
-//         }
-//         System.out.printf("\n");
-//       }
+     for(i=1; i<=rows;i++){
+        for(j=1;j<=rows;j++){
+          if((i+j)<=rows){
+            System.out.printf(" ");
+          }
+          else{
+            System.out.printf("*");
+          }
+        }
+        System.out.printf("\n");
+      }
       
     }
     
